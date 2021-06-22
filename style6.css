@@ -1,0 +1,46 @@
+body{
+    background: url(a5.jpg);
+    background-size: 1500px 1020px;
+}
+
+h1{
+  margin: auto;
+  width: 50%;
+  border: 3px solid rgb(25, 253, 25);
+  padding: 10px;
+  color: white;
+  
+}
+
+p{
+    margin: auto;
+    width: 20%;
+    border: 3px solid rgb(255, 27, 27);
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
+    color: white;
+}
+
+.btn{
+    width: 10%;
+    align-items: center;
+    background-color: rgb(54, 218, 25);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+    
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.btn:hover{
+    background-color: dodgerblue;
+}
