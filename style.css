@@ -31,15 +31,16 @@ body{
 .login-box input{
     width: 100px;
     margin-bottom: 20px;
+    
 }
 .login-box input[type="text"],input[type="password"]
 {
     border: none;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid rgb(37, 255, 37);
     background: transparent;
     outline: none;
     height: 40px;
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 16px;
 
 }
@@ -54,3 +55,7 @@ body{
     border-radius: 20px;
 }
 
+::placeholder { 
+    color: white;
+    opacity: 1; 
+  }
