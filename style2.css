@@ -34,7 +34,18 @@ label{
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
+/* For the boxes with white background */
+.form-control{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px ;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}
 
+/* For transparent boxes 
 
 .form-control{
     border: none;
@@ -48,6 +59,7 @@ label{
     border: 3px solid rgb(128, 0, 0);
 
 }
+*/
 .btn
 {
     border: none;
