@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    zoom: 1.5; 
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f6f6f6; 
+    background: url(a4.jpg) no-repeat;
+}
+
+.list{
+    width: 700px;
+    height: 1000px;
+
+}
+
+.list th{
+    
+    color: #fff;
+    background: #03a9f4;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.list table{
+    position: relative;
+    background: #fff;
+
+}
+    
+.list ul td{
+    list-style: none;
+    padding: 10px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,.1);
+    transition: transform 0.5s;
+
+}
+
+.list tr:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.2);
+    color: #fff;
+}
+
+.list tr span{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: #25bcff;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    transform: translateY(-20px);
+}
+
+.list tr:hover span{
+
+    background: #fff;
+    color: #25bcff;
+    
+
+}
+
+.form-control{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px ;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+
+}
+.button1{
+    height:45px;
+    margin:45px 0;
+    position:relative;
+    top: -43px;
+    left: -370px;
+    
+}
+    
+.button1 input{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: linear-gradient(#71b7e6,#9b59b6);
+    
+}
+  
+button {
+    height: 45px;
+    width: 110%;
+    outline: none;
+    color:#fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background: #0fdb20;
+    position: relative;
+    left:-4px;
+    top: 20px;
+
+}

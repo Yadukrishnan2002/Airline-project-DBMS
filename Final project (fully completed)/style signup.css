@@ -1,0 +1,136 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(a1.jpg) no-repeat;
+    background-size: cover;
+    color:black;
+    display: flex;
+    align-items: center;
+
+}
+ h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    left: 620px;
+    top: 25px;
+    color: rgb(255, 255, 255);
+
+}
+
+.first_row{
+    display: flex;
+    width: 420px;
+    height: 300px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing:inherit;
+    padding: 70px 30px;
+
+    
+}
+
+.first_name{
+    width: 100%;
+    margin-right: 40px;
+    
+}
+.first_name input[type="text"]{
+    border: none;
+    border-bottom: 1px solid rgb(37, 255, 37);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+.last_name input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(37, 255, 37);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: relative;
+    left:220px;
+    top: -43px;
+}
+
+.second_row input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(37, 255, 37);
+    background: transparent;
+    outline: none;
+    width:400px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: relative; 
+    left:365px; 
+    top:220px;
+}
+
+.email input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(37, 255, 37);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: relative;
+    left: -40px;
+    top: 320px;
+}
+
+.password input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(37, 255, 37);
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    position: relative;
+    left: 195px;
+    top: 277px;
+}
+
+.signupbtn
+{
+    
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 20px;
+    position: relative;
+    top: 420px;
+    left: -80px;
+    
+}
+
+
+
+
+::placeholder{
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+}
+   

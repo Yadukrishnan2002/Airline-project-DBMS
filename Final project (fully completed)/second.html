@@ -1,0 +1,48 @@
+<html>
+ <head>
+    <meta charset="utf-8">
+    <title>Ticket form></title>
+    <link rel="stylesheet" href="style2.css">
+    
+ </head>
+ <body>
+   
+  <div class="booking form">
+      <label>Flying from</label>
+      <input type="text" class="form-control" placeholder="city or Airport" required>
+      <label>Flying to</label>
+      <input type="text" class="form-control" placeholder="city or Airport" required>
+
+      <div class="input-grp">
+          <label>Departing</label>
+          <input type="date" class="form-control select-date" required>
+
+      </div>
+
+      <div class="input-grp">
+        <label>Adults</label>
+        <input type="number" class="form-control" value="1" id="userinput1" required>
+      </div>
+
+      <div class="input-grp">
+        <label>children</label>
+        <input type="number" class="form-control" value="0" id="userinput2">
+      </div>
+   
+      <form action = "third.html">
+      <input class="btn" type="submit" onclick="cal()" name="" value="Submit">  
+   </form>
+  </div>
+<script>
+ function cal(){
+
+  var num1=document.getElementById("userinput1").value;
+  
+  var result=num1 * 5000;
+  localStorage.setItem("number",result);
+  return false;
+  
+ }
+</script>
+ </body>
+</html>
