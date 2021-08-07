@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 
 <!DOCTYPE html>
 <html>
@@ -57,6 +59,7 @@ if(isset($_POST['submit']))
     $uname=$_POST['uname'];
     $email=$_POST['email'];
     $pass=$_POST['pass'];
+    $_SESSION["us_name"]=$uname;
 
     
 
